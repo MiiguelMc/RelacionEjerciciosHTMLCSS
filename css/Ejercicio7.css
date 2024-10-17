@@ -1,0 +1,36 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#p1{
+    background-color: grey;
+
+}
+#especial{
+    color: blue;
+
+}
+h2,h3{
+    border: 1px solid orange ;
+
+}
+#h2{
+    background-color: pink;
+}
+ul{
+    color: red;
+}
+ul ul{
+    color: green;
+}
+p img{
+    border: 5px solid black;
+
+}
+#segunda{
+    border: 5px solid red;
+}
+
+#ultimoh3{
+    background-color: blue;
+}
