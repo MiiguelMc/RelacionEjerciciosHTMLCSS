@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #1E374B;
+    color: white;
+    font-size: 25px;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+}
+nav ul {
+    list-style-type:none;
+    padding: 0px;
+    margin-top: 1px;
+    display: flex;
+    background-color: #466482;
+    justify-content: flex-start;
+    }
+    nav ul li   {
+    margin: 0 10px;
+    display: flex;
+    color: white;
+    padding: 10px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color: white;
+        display: flex;
+
+    }
+    

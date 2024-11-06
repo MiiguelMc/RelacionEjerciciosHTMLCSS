@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/Ejercicio12.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <fieldset> 
+            <legend> Datos Personales</legend>
+            Nombre: <input type="text"  title="Escribe tu nombre." name="nombre" autofocus required/>
+            <br></br> Correo Electronico: <input type="text"  title="Tu correo Electronico name="nombre" autofocus required/><b></b>
+
+
+        </fieldset>
+        <fieldset>
+            <legend> Datos del proyecto</legend>
+            Breve descripcion del Proyecto <br>
+            <textarea name="description" id="descricion"></textarea>
+            <br><input type="radio" name="estado" value="En planteamiento">En planteamiento
+            <input type="radio" name="estado" value="En planificacion">En planificacion
+            <input type="radio" name="estado" value="En ejecucion">En ejercución
+            <input type="radio" name="estado" value="Ya finalizado">Ya finalizado
+            <br>Presupuesto aproximado (en €): <input type="number"  title="Presupuesto aproximado" name="nombre" autofocus required/>
+        </fieldset>
+        <input type="submit" value="ENVIAR">
+    </form>
+</body>
+</html>
