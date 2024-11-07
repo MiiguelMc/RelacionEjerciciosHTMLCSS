@@ -1,7 +1,13 @@
-body {
+html, body {
     margin: 0;
+    padding: 0;
+    height: 100%;
 }
+body{
+    display: flex;
+    flex-direction: column;
 
+}
 header{
     background-color: #1E374B;
     color: white;
@@ -29,6 +35,71 @@ nav ul {
         text-decoration: none;
         color: white;
         display: flex;
-
     }
-    
+
+    main{
+        display: flex;
+        align-items:center ;
+        align-content: space-around;
+        flex:1;
+    }
+    h1{
+        font-size: large;
+    }
+    .grupoht{
+        box-shadow: 0px 0px  3px grey;
+        border-radius: 10px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+    }
+    .iconht{
+        height: 200px;
+        width: 200px; 
+    }
+    .grupoxml{
+        box-shadow: 0px 0px  3px grey;
+        border-radius: 10px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+    }
+    .xml{
+        height: 220px;
+        width: 209px;
+    }
+    .grupocss{
+        box-shadow: 0px 0px  3px grey;
+        border-radius: 10px;
+        margin: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 30px;
+        font-size: 15px;
+    }
+    .css{
+        height: 200px;
+        width: 150px;
+    }
+    footer{
+        background-color: #1E374B;
+        color: white;
+        height: 90px;
+        display: flex;
+        align-items: center;
+        font-size: 13px;
+    }
