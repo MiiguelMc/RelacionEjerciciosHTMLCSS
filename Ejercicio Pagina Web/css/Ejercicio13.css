@@ -1,105 +1,117 @@
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
-body{
-    display: flex;
-    flex-direction: column;
-
+body {
+  display: flex;
+  flex-direction: column;
 }
-header{
-    background-color: #1E374B;
-    color: white;
-    font-size: 25px;
-    padding: 5px;
-    display: flex;
-    align-items: center;
+header {
+  background-color: #1e374b;
+  color: white;
+  font-size: 25px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
 }
 
 nav ul {
-    list-style-type:none;
-    padding: 0px;
-    margin-top: 1px;
-    display: flex;
-    background-color: #466482;
-    justify-content: flex-start;
-    }
-    nav ul li   {
-    margin: 0 10px;
-    display: flex;
-    color: white;
-    padding: 10px;
-    }
-    nav ul li a {
-        text-decoration: none;
-        color: white;
-        display: flex;
-    }
+  list-style-type: none;
+  padding: 0px;
+  margin-top: 1px;
+  display: flex;
+  background-color: #466482;
+  justify-content: flex-start;
+}
+nav ul li {
+  margin: 0 10px;
+  display: flex;
+  color: white;
+  padding: 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  display: flex;
+}
 
-    main{
-        display: flex;
-        align-items:center ;
-        align-content: space-around;
-        flex:1;
-    }
-    h1{
-        font-size: large;
-    }
-    .grupoht{
-        box-shadow: 0px 0px  3px grey;
-        border-radius: 10px;
-        margin: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 30px;
-    }
-    .iconht{
-        height: 200px;
-        width: 200px; 
-    }
-    .grupoxml{
-        box-shadow: 0px 0px  3px grey;
-        border-radius: 10px;
-        margin: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 30px;
-    }
-    .xml{
-        height: 220px;
-        width: 209px;
-    }
-    .grupocss{
-        box-shadow: 0px 0px  3px grey;
-        border-radius: 10px;
-        margin: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-bottom: 30px;
-        font-size: 15px;
-    }
-    .css{
-        height: 200px;
-        width: 150px;
-    }
-    footer{
-        background-color: #1E374B;
-        color: white;
-        height: 90px;
-        display: flex;
-        align-items: center;
-        font-size: 13px;
-    }
+main {
+  display: flex;
+  align-items: center;
+  align-content: space-around;
+  flex: 1;
+}
+h1 {
+  font-size: large;
+}
+.grupoht {
+  box-shadow: 0px 0px 3px grey;
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+.iconht {
+  height: 200px;
+  width: 200px;
+}
+.grupoxml {
+  box-shadow: 0px 0px 3px grey;
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+.xml {
+  height: 220px;
+  width: 209px;
+}
+.grupocss {
+  box-shadow: 0px 0px 3px grey;
+  border-radius: 10px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+.css {
+  height: 200px;
+  width: 150px;
+}
+footer {
+  background-color: #1e374b;
+  color: white;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  justify-content: space-between;
+}
+
+.imagen img {
+  height: 30px;
+  width: 30px;
+  display: flex;
+}
+
+
+.direccion {
+  padding-right: 10px;
+}
