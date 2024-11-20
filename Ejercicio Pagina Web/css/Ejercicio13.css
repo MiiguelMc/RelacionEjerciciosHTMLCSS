@@ -109,8 +109,14 @@ footer {
   height: 30px;
   width: 30px;
   display: flex;
-}
 
+}
+.imagen{
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+  margin: 11px;
+}
 
 .direccion {
   padding-right: 10px;
